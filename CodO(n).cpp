@@ -1,7 +1,3 @@
-- **C++:**
-
-```markdown
-```cpp
 
 #include <iostream>
 #include <fstream>
