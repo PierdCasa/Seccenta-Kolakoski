@@ -8,9 +8,9 @@ ofstream g("KolakoskiLogN.out");
 
 unsigned long long int n;
 
-unsigned long long* p= new unsigned long long[n];
+unsigned long long int* p;
 
-int increment(int k)
+unsigned short int increment(unsigned long long int k)
 {
     if(p[k]==0)
         p[k]=22;
@@ -37,6 +37,7 @@ int increment(int k)
 int main()
 {
     cin>>n;
+    p=new unsigned long long int[n];
     if(n>=1)
     g<<1;
     if(n>=2)
