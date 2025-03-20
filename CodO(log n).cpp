@@ -3,7 +3,7 @@
 
 
 using namespace std;
-#define MAX_N 9223372036854775806
+
 ofstream g("KolakoskiLogN.out");
 
 unsigned long long int n;
