@@ -3,11 +3,13 @@
 
 
 using namespace std;
-
+#define MAX_N 9223372036854775806
 ofstream g("KolakoskiLogN.out");
 
-int n;
-int p[100000];
+unsigned long long int n;
+
+unsigned long long* p= new unsigned long long[n];
+
 int increment(int k)
 {
     if(p[k]==0)
