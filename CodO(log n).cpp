@@ -46,7 +46,7 @@ int main()
         {g<<increment(0);}
     }
     //OBSERVATIE INPUTUL ESTE -3;
-
+    delete[] p;
     g.close();
     /*
     122112122122112112212112122112112122122112122
